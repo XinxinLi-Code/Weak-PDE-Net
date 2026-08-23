@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Training logs and generated experiment outputs.
+runs*/
+results*/
+**/runs*/
+**/results*/
+**/sampling_idx/
+**/configs/
+*.out
+events.out.tfevents.*
+
+# Generated 3D Wave datasets.
+datasets/Wave3D_Analytic.mat
+datasets/Wave3D_Analytic.npz
+
+# Generated figures.
+*.png
+*.jpg
+!figures/Figure_2.png
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
